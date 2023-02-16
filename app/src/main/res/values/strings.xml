@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">OnlyDesignTask</string>
+    <string name="february">February</string>
+    <string name="chf">CHF</string>
+    <string name="_1_685_80">1\'685.80</string>
+    <string name="total">Total</string>
+    <string name="revenue">Revenue</string>
+    <string name="_12">12</string>
+    <string name="bookings">Bookings</string>
+    <string name="_26">26</string>
+    <string name="services">Services</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="appointments">Appointments</string>
+    <string name="today_s_appointments">Today\'s Appointments</string>
+    <string name="curtis_stone">Curtis Stone</string>
+    <string name="_8002_zurich">8002 Zurich</string>
+    <string name="_75_min">75 Min</string>
+    <string name="ladies_wash_hair_cut_and_styling">Ladies - Wash,Hair cut and Styling</string>
+    <string name="_14">14</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="callender">Callender</string>
+    <string name="data">Data</string>
+    <string name="massage">Massage</string>
+    <string name="person">Person</string>
+    <string name="wash_hair_cut_and_styling">Wash,Hair cut and Styling</string>
+    <string name="name">Name</string>
+    <string name="booking_date">Booking Date</string>
+    <string name="_21_apr_2022_04_15pm">21 Apr, 2022 04:15pm</string>
+    <string name="reject">Reject</string>
+    <string name="accept">Accept</string>
+    <string name="recent_review">Recent Review</string>
+    <string name="recent_bookings">Recent Bookings</string>
+    <string name="_4_5">4.5</string>
+    <string name="lorem_ipsum_is_simply_dummy_text_of_the_printing_and_typesetting_industry_lorem_ipsum_has_been_the_industry_s_standard_dummy">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy.</string>
+    <string name="_124">124</string>
+    <string name="total_clients">Total Clients</string>
+    <string name="_18">18</string>
+    <string name="new_clients">New Clients</string>
+    <string name="total_booking">Total Booking</string>
+    <string name="my_appointments">My Appointments</string>
+    <string name="feb_04_monday">Feb, 04 Monday</string>
+    <string name="feb">Feb,</string>
+    <string name="_04_monday">04 Monday</string>
+    <string name="mon">Mon</string>
+    <string name="_05">05</string>
+    <string name="_4">(4)</string>
+    <string name="_7_00_am">7:00 AM</string>
+    <string name="_8_00_am">8:00 AM</string>
+    <string name="finance">Finance</string>
+    <string name="_2022">2022</string>
+    <string name="_348">348</string>
+    <string name="_1346">1346</string>
+    <string name="chf25">CHF25</string>
+    <string-array name="month_array">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>sep</item>
+        <item>Nav</item>
+        <item>Dec</item>
+    </string-array>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/menu_bottom_cal"
+    android:title="@string/callender"
+    android:icon="@drawable/cal2"/>
+    <item
+        android:id="@+id/menu_bottom_data"
+        android:title="@string/data"
+        android:icon="@drawable/group_1086"/>
+    <item
+        android:id="@+id/menu_bottom_msg"
+        android:title="@string/massage"
+        android:icon="@drawable/group_184"/>
+    <item
+        android:id="@+id/menu_bottom_per"
+        android:title="@string/person"
+        android:icon="@drawable/pearson"/>
+
+
+</menu>
