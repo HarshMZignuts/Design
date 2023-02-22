@@ -10,7 +10,6 @@ import com.example.onlydesigntask.R
 import com.example.onlydesigntask.data.CardAppintmentData
 import com.example.onlydesigntask.data.DateData
 import com.example.onlydesigntask.databinding.FragmentAppoinmentCalBinding
-import com.example.onlydesigntask.fragment.ApoinmentListAdpter
 
 
 class AppoinmentCalFragment : Fragment() {

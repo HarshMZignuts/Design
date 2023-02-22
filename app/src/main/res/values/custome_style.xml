@@ -19,7 +19,7 @@
 
     </style>
     <style name="CustomCardViewStyl2" parent="@style/Widget.MaterialComponents.CardView">
-        <item name="android:background">@drawable/gradiant_card_pink</item>
+
         <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_card_custom_corner2</item>
     </style>
 
@@ -35,6 +35,89 @@
 
 
     </style>
+
+
+
+
+    <style name="CustomCardViewStyl3" parent="@style/Widget.MaterialComponents.CardView">
+
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_card_custom</item>
+    </style>
+
+
+    <style name="ShapeAppearanceOverlay_card_custom" parent="">
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerSizeBottomLeft">4dp</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+        <item name="cornerSizeBottomRight">18dp</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerSizeTopRight">18dp</item>
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="cornerSizeTopLeft">18dp</item>
+
+
+
+
+
+    </style>
+
+
+
+
+    <style name="CustomCardViewStyl4" parent="@style/Widget.MaterialComponents.CardView">
+
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_card_custom2</item>
+    </style>
+
+
+    <style name="ShapeAppearanceOverlay_card_custom2" parent="">
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerSizeBottomLeft">18dp</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+        <item name="cornerSizeBottomRight">18dp</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerSizeTopRight">18dp</item>
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="cornerSizeTopLeft">4dp</item>
+
+
+
+
+
+    </style>
+
+
+
+
+
+    <style name="CustomCardViewStyl5" parent="@style/Widget.MaterialComponents.CardView">
+
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_card_custom3</item>
+    </style>
+
+
+    <style name="ShapeAppearanceOverlay_card_custom3" parent="">
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerSizeBottomLeft">18dp</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+        <item name="cornerSizeBottomRight">4dp</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerSizeTopRight">18dp</item>
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="cornerSizeTopLeft">18dp</item>
+
+
+
+
+
+    </style>
+
+
+
+
+
+
+
     <style name="CustomeRectViewStyle" parent="@style/Widget.MaterialComponents.CardView">
         <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_rect_custom_corners</item>
     </style>
@@ -74,6 +157,45 @@
 
 
     </style>
+
+
+    <style name="CustomeImage" parent="">
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="cornerSizeTopLeft">2dp</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerSizeTopRight">4dp</item>
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerSizeBottomLeft">2dp</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+        <item name="cornerSizeBottomRight">18dp</item>
+
+
+
+
+
+
+    </style>
+
+
+    <style name="CustomeImage2" parent="">
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="cornerSizeTopLeft">18dp</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerSizeTopRight">2dp</item>
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerSizeBottomLeft">18dp</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+        <item name="cornerSizeBottomRight">2dp</item>
+
+
+
+
+
+
+    </style>
+
+
+
     <style name="MyButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
 
         <item name="shapeAppearanceOverlay">@style/MyShapeAppearance</item>

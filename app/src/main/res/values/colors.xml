@@ -22,5 +22,10 @@
     <color name="card_text_2">#8A9ABC</color>
     <color name="spinner">#D6E0F1</color>
     <color name="gradiant_start">#E6ECFB</color>
-    <color name="gardiant_pink">#EDA6A9#F9CFD1</color>
+    <color name="black2">#80000000</color>
+    <color name="black3">#4D000000</color>
+    <color name="black4">#0D000000</color>
+    <color name="line">#40062275</color>
+    <color name="card_blue_2">#4499DC</color>
+    <color name="card_back_gray">#F2F4F6</color>
 </resources>

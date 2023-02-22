@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 <item
-    android:id="@+id/menu_bottom_cal"
+    android:id="@+id/appoinmentCalFragment"
     android:title="@string/callender"
     android:icon="@drawable/cal2"/>
     <item
-        android:id="@+id/menu_bottom_data"
+        android:id="@+id/finianceFragment"
         android:title="@string/data"
         android:icon="@drawable/group_1086"/>
     <item
-        android:id="@+id/menu_bottom_msg"
+        android:id="@+id/homeFragment"
+        android:title="@string/home"
+        />
+    <item
+        android:id="@+id/chatsFragment"
         android:title="@string/massage"
         android:icon="@drawable/group_184"/>
     <item

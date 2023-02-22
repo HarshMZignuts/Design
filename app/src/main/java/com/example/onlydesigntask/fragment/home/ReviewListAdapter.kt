@@ -1,21 +1,21 @@
-package com.example.onlydesigntask.fragment
+package com.example.onlydesigntask.fragment.home
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.example.onlydesigntask.R
 
-class ApoinmentListAdpter :  RecyclerView.Adapter<ApoinmentListAdpter.MyViewHolder>() {
+class ReviewListAdapter : RecyclerView.Adapter<ReviewListAdapter.MyViewHolder>() {
+    val limte = 5
 
-    val limit =5
-    class MyViewHolder(itemview : View) : RecyclerView.ViewHolder(itemview) {
-
+    class MyViewHolder(item : View) : ViewHolder(item) {
 
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.appoiment_custome,parent,false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.recent_review_coustome,parent,false)
         return MyViewHolder(view)
     }
 
@@ -24,6 +24,6 @@ class ApoinmentListAdpter :  RecyclerView.Adapter<ApoinmentListAdpter.MyViewHold
     }
 
     override fun getItemCount(): Int {
-        return limit
+        return limte
     }
 }

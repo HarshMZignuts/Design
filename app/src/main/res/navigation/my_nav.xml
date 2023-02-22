@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/my_nav"
-    app:startDestination="@id/appoinmentCalFragment">
+    app:startDestination="@id/homeFragment">
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.onlydesigntask.fragment.HomeFragment"
+        android:name="com.example.onlydesigntask.fragment.home.HomeFragment"
         android:label="HomeFragment"
         tools:layout="@layout/fragment_home"/>
     <fragment
@@ -15,4 +15,23 @@
         android:name="com.example.onlydesigntask.fragment.appoinmentcal.AppoinmentCalFragment"
         android:label="AppoinmentCalFragment"
         tools:layout="@layout/fragment_appoinment_cal"/>
+    <fragment
+        android:id="@+id/finianceFragment"
+        android:name="com.example.onlydesigntask.fragment.finance.FinianceFragment"
+        android:label="fragment_finiance"
+        tools:layout="@layout/fragment_finiance" />
+    <fragment
+        android:id="@+id/chatsFragment"
+        android:name="com.example.onlydesigntask.fragment.chats.ChatsFragment"
+        android:label="ChatsFragment"
+        tools:layout="@layout/fragment_chats">
+        <action
+            android:id="@+id/action_chatsFragment_to_chatFragment"
+            app:destination="@id/chatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.onlydesigntask.fragment.chat.ChatFragment"
+        android:label="ChatFragment"
+        tools:layout="@layout/fragment_chat"/>
 </navigation>

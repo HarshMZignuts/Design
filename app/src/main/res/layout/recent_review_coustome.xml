@@ -7,6 +7,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="6dp"
     app:cardElevation="8dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
@@ -80,7 +82,7 @@
 
             <TextView
                 android:id="@+id/textView22"
-                android:layout_width="17dp"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="8dp"
@@ -108,10 +110,10 @@
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/shapeableImageView6"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="2dp"
                 android:layout_marginTop="21dp"
-                android:layout_marginEnd="24dp"
-                android:src="@drawable/line"
+                android:layout_marginEnd="29dp"
+                android:src="@drawable/dotted_line"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@+id/textView23"
                 app:layout_constraintTop_toBottomOf="@+id/textView23">
@@ -123,12 +125,11 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="24dp"
 
                 android:text="@string/lorem_ipsum_is_simply_dummy_text_of_the_printing_and_typesetting_industry_lorem_ipsum_has_been_the_industry_s_standard_dummy"
                 android:textColor="@color/list_card_text"
                 android:textSize="10sp"
-                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/shapeableImageView6"
                 app:layout_constraintStart_toStartOf="@+id/shapeableImageView6"
                 app:layout_constraintTop_toBottomOf="@+id/shapeableImageView6" />
         </androidx.constraintlayout.widget.ConstraintLayout>
